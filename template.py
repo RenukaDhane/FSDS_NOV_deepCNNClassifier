@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:%(message)s: ')
 package_name="deepClassifier"
 
 list_of_files=[
-    ".github/workflows/.gitkeep"    # empty folders do not go to repository ,so to avoid that we use gitkeep as placeholder to keep the folder structure in repo
+    ".github/workflows/.gitkeep",    # empty folders do not go to repository ,so to avoid that we use gitkeep as placeholder to keep the folder structure in repo
     #F-strings provide a concise and convenient way to embed python expressions inside string literals for formatting.
     #The __init__.py files are required to make Python treat directories containing the file as python packages.
     # directories and packages become identifiable
@@ -28,8 +28,8 @@ list_of_files=[
     #below contains training parameters
     "params.yaml",
     "init_setup.sh",
-    "requirements.txt"
-    "requirements_dev.txt"
+    "requirements.txt",
+    "requirements_dev.txt",
     "setup.py",
     "setup.cfg",
     #Modern Python packages can contain a pyproject.toml file, first introduced in PEP 518 and later expanded in PEP 517, PEP 621 and PEP 660. 
