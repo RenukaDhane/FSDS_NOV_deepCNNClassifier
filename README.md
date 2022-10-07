@@ -33,5 +33,7 @@ STEP 4: Use context manager of mlflow to start run and then log metrics, params 
 
 ## Deploy ML model
 Prediction Service
+
 1.Run and render app using Streamlit
+
 2.Create Docker image of the application and run in docker container
